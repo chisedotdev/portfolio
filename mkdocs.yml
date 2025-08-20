@@ -1,5 +1,5 @@
 site_name: ch1se 
-site_url: https://mydomain.org/mysite
+site_url: https://ch1se.github.io/portfolio
 theme:
   name: material 
   favicon: images/icon.ico
@@ -33,8 +33,6 @@ theme:
   
 plugins:
   - search
-  # - literate-nav:
-  #     nav_file: SUMMARY.md
 
 markdown_extensions:
   - pymdownx.highlight:
