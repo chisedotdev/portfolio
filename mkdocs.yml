@@ -1,0 +1,46 @@
+site_name: ch1se 
+site_url: https://mydomain.org/mysite
+theme:
+  name: material 
+  favicon: images/icon.ico
+  logo: images/icon.ico
+  palette: 
+    # Palette toggle for light mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: default 
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.expand
+    - navigation.sections
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggestions
+    - content.code.copy
+    - navigation.path
+  
+plugins:
+  - search
+  # - literate-nav:
+  #     nav_file: SUMMARY.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
